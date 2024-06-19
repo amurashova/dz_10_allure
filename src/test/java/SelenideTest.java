@@ -10,7 +10,7 @@ import static org.openqa.selenium.By.linkText;
 
 public class SelenideTest extends TestBase {
     @Test
-    public void IssueSearchSelenideTest() {
+    public void issueSearchSelenideTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         open("");
         $(".header-search-button").click();

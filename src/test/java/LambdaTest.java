@@ -11,7 +11,7 @@ import static org.openqa.selenium.By.linkText;
 
 public class LambdaTest extends TestBase {
         @Test
-        public void IssueSearchSLambdaTest() {
+        public void issueSearchSLambdaTest() {
             SelenideLogger.addListener("allure", new AllureSelenide());
 
             step("Открыть главную страницу", () -> {
